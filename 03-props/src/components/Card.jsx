@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Card = () => {
+const Card = (props) => {
+    console.log(props.user)
   return (
     <div>
       <div className="card">
