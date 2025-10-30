@@ -1,12 +1,12 @@
 import React from 'react'
-import Card from './components/Card'
+
 
 const App = () => {
+  const user='Ankita'
   return (
     <div>
-     <Card/>
-      
-    </div>
+      <h1>Hello i am {user}</h1>
+     </div>
   )
 }
 
